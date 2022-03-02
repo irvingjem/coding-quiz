@@ -1,10 +1,11 @@
 // Variables
 var questionNumber = 0;
-// var totalScore = 0;
-var timerEl = $("#timer")
-    //timer var
+// Timer element 
+var timerEl = $("#timer");
+// Timer var
 var timeLeft = 30;
 var timeInterval;
+// Score holder
 var score;
 
 var myQuestions = [{
@@ -51,6 +52,7 @@ function countdown() {
 }
 
 function startQuiz() {
+    timeLeft = 30;
     //starting timer
     timeInterval = setInterval(countdown, 1000);
     //displaying questions
@@ -65,6 +67,7 @@ function startQuiz() {
 function endQuiz() {
     // what ends the timer
     clearInterval(timeInterval);
+    timerEl.text("");
     alert("Game Over !!");
     //show results 
     $("#results").removeClass("hide");
