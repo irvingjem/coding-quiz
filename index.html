@@ -5,13 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+    <h2 id="title">Coding Quiz</h2>
     <div id="quiz"></div>
-    <button id="submit">Submit Quiz</button>
+    <button id="start">Start</button>
+    <button id="submit">Submit</button>
+    <div>
+        <p id="question-title"></p>
+        <button id="answer1" class="choices hide">Button 1</button>
+        <button id="answer2" class="choices hide">Button 2</button>
+        <button id="answer3" class="choices hide">Button 3</button>
+    </div>
     <div id="results"></div>
+    <p id="timer"></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
