@@ -3,6 +3,7 @@
 ## Purpose
 This quiz is created to test what I have learned within HTML, CSS and Javascript.
  
+## Functionality
 It should function with the following:
 
 GIVEN I am taking a code quiz
@@ -23,7 +24,7 @@ THEN I can save my initials and score
 ## Going forward
 
 ### Links
-https://github.com/irvingjem/coding-quiz - Repository
+https://github.com/irvingjem/coding-quiz - Repository <br>
 https://irvingjem.github.io/coding-quiz/ - Live Site
 
 
