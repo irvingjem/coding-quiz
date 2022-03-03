@@ -18,7 +18,13 @@ WHEN the game is over
 THEN I can save my initials and score
 
 ## Snapshot
+![coding-quiz-start-page](./assets/coding-quiz-start-page.jpg)
 
 ## Going forward
 
 ### Links
+https://github.com/irvingjem/coding-quiz - Repository
+https://irvingjem.github.io/coding-quiz/ - Live Site
+
+
+Made by me!
